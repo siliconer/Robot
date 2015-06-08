@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D254E35140E2658001A3B3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D254E34140E2658001A3B3C /* UIKit.framework */; };
+		0D254E37140E2658001A3B3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D254E36140E2658001A3B3C /* Foundation.framework */; };
+		0D254E39140E2658001A3B3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D254E38140E2658001A3B3C /* CoreGraphics.framework */; };
+		0D254E3F140E2658001A3B3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D254E3D140E2658001A3B3C /* InfoPlist.strings */; };
+		0D254E41140E2658001A3B3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D254E40140E2658001A3B3C /* main.m */; };
+		0D254E45140E2658001A3B3C /* AnimationAndMotionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D254E44140E2658001A3B3C /* AnimationAndMotionAppDelegate.m */; };
+		0D254E48140E2658001A3B3C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D254E46140E2658001A3B3C /* MainWindow.xib */; };
+		0D254E53140E274B001A3B3C /* MotionImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D254E51140E274B001A3B3C /* MotionImageViewController.m */; };
+		0D254E54140E274B001A3B3C /* MotionImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D254E52140E274B001A3B3C /* MotionImageViewController.xib */; };
+		0D254E56140E27DD001A3B3C /* hisoka128.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D254E55140E27DD001A3B3C /* hisoka128.jpg */; };
+		0D254E86140E34FD001A3B3C /* MotionOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D254E84140E34FD001A3B3C /* MotionOptionViewController.m */; };
+		0D254E87140E34FD001A3B3C /* MotionOptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D254E85140E34FD001A3B3C /* MotionOptionViewController.xib */; };
+		0D254E8C140E3773001A3B3C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D254E8B140E3773001A3B3C /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D254E30140E2658001A3B3C /* AnimationAndMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationAndMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D254E34140E2658001A3B3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D254E36140E2658001A3B3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D254E38140E2658001A3B3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D254E3C140E2658001A3B3C /* AnimationAndMotion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationAndMotion-Info.plist"; sourceTree = "<group>"; };
+		0D254E3E140E2658001A3B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D254E40140E2658001A3B3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D254E42140E2658001A3B3C /* AnimationAndMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimationAndMotion-Prefix.pch"; sourceTree = "<group>"; };
+		0D254E43140E2658001A3B3C /* AnimationAndMotionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationAndMotionAppDelegate.h; sourceTree = "<group>"; };
+		0D254E44140E2658001A3B3C /* AnimationAndMotionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationAndMotionAppDelegate.m; sourceTree = "<group>"; };
+		0D254E47140E2658001A3B3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0D254E50140E274B001A3B3C /* MotionImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionImageViewController.h; sourceTree = "<group>"; };
+		0D254E51140E274B001A3B3C /* MotionImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionImageViewController.m; sourceTree = "<group>"; };
+		0D254E52140E274B001A3B3C /* MotionImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MotionImageViewController.xib; sourceTree = "<group>"; };
+		0D254E55140E27DD001A3B3C /* hisoka128.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hisoka128.jpg; sourceTree = "<group>"; };
+		0D254E83140E34FD001A3B3C /* MotionOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionOptionViewController.h; sourceTree = "<group>"; };
+		0D254E84140E34FD001A3B3C /* MotionOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionOptionViewController.m; sourceTree = "<group>"; };
+		0D254E85140E34FD001A3B3C /* MotionOptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MotionOptionViewController.xib; sourceTree = "<group>"; };
+		0D254E8B140E3773001A3B3C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D254E2D140E2658001A3B3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D254E8C140E3773001A3B3C /* CoreMotion.framework in Frameworks */,
+				0D254E35140E2658001A3B3C /* UIKit.framework in Frameworks */,
+				0D254E37140E2658001A3B3C /* Foundation.framework in Frameworks */,
+				0D254E39140E2658001A3B3C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D254E25140E2657001A3B3C = {
+			isa = PBXGroup;
+			children = (
+				0D254E3A140E2658001A3B3C /* AnimationAndMotion */,
+				0D254E33140E2658001A3B3C /* Frameworks */,
+				0D254E31140E2658001A3B3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D254E31140E2658001A3B3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D254E30140E2658001A3B3C /* AnimationAndMotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D254E33140E2658001A3B3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D254E8B140E3773001A3B3C /* CoreMotion.framework */,
+				0D254E34140E2658001A3B3C /* UIKit.framework */,
+				0D254E36140E2658001A3B3C /* Foundation.framework */,
+				0D254E38140E2658001A3B3C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D254E3A140E2658001A3B3C /* AnimationAndMotion */ = {
+			isa = PBXGroup;
+			children = (
+				0D254E43140E2658001A3B3C /* AnimationAndMotionAppDelegate.h */,
+				0D254E44140E2658001A3B3C /* AnimationAndMotionAppDelegate.m */,
+				0D254E8A140E3524001A3B3C /* MotionImage */,
+				0D254E89140E3509001A3B3C /* MotionOption */,
+				0D254E46140E2658001A3B3C /* MainWindow.xib */,
+				0D254E3B140E2658001A3B3C /* Supporting Files */,
+			);
+			path = AnimationAndMotion;
+			sourceTree = "<group>";
+		};
+		0D254E3B140E2658001A3B3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D254E55140E27DD001A3B3C /* hisoka128.jpg */,
+				0D254E3C140E2658001A3B3C /* AnimationAndMotion-Info.plist */,
+				0D254E3D140E2658001A3B3C /* InfoPlist.strings */,
+				0D254E40140E2658001A3B3C /* main.m */,
+				0D254E42140E2658001A3B3C /* AnimationAndMotion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D254E89140E3509001A3B3C /* MotionOption */ = {
+			isa = PBXGroup;
+			children = (
+				0D254E83140E34FD001A3B3C /* MotionOptionViewController.h */,
+				0D254E84140E34FD001A3B3C /* MotionOptionViewController.m */,
+				0D254E85140E34FD001A3B3C /* MotionOptionViewController.xib */,
+			);
+			name = MotionOption;
+			sourceTree = "<group>";
+		};
+		0D254E8A140E3524001A3B3C /* MotionImage */ = {
+			isa = PBXGroup;
+			children = (
+				0D254E50140E274B001A3B3C /* MotionImageViewController.h */,
+				0D254E51140E274B001A3B3C /* MotionImageViewController.m */,
+				0D254E52140E274B001A3B3C /* MotionImageViewController.xib */,
+			);
+			name = MotionImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D254E2F140E2658001A3B3C /* AnimationAndMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D254E4B140E2658001A3B3C /* Build configuration list for PBXNativeTarget "AnimationAndMotion" */;
+			buildPhases = (
+				0D254E2C140E2658001A3B3C /* Sources */,
+				0D254E2D140E2658001A3B3C /* Frameworks */,
+				0D254E2E140E2658001A3B3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationAndMotion;
+			productName = AnimationAndMotion;
+			productReference = 0D254E30140E2658001A3B3C /* AnimationAndMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D254E27140E2657001A3B3C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0D254E2A140E2657001A3B3C /* Build configuration list for PBXProject "AnimationAndMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D254E25140E2657001A3B3C;
+			productRefGroup = 0D254E31140E2658001A3B3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D254E2F140E2658001A3B3C /* AnimationAndMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D254E2E140E2658001A3B3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D254E3F140E2658001A3B3C /* InfoPlist.strings in Resources */,
+				0D254E48140E2658001A3B3C /* MainWindow.xib in Resources */,
+				0D254E54140E274B001A3B3C /* MotionImageViewController.xib in Resources */,
+				0D254E56140E27DD001A3B3C /* hisoka128.jpg in Resources */,
+				0D254E87140E34FD001A3B3C /* MotionOptionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D254E2C140E2658001A3B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D254E41140E2658001A3B3C /* main.m in Sources */,
+				0D254E45140E2658001A3B3C /* AnimationAndMotionAppDelegate.m in Sources */,
+				0D254E53140E274B001A3B3C /* MotionImageViewController.m in Sources */,
+				0D254E86140E34FD001A3B3C /* MotionOptionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D254E3D140E2658001A3B3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D254E3E140E2658001A3B3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D254E46140E2658001A3B3C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D254E47140E2658001A3B3C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D254E49140E2658001A3B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D254E4A140E2658001A3B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D254E4C140E2658001A3B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "AnimationAndMotion/AnimationAndMotion-Prefix.pch";
+				INFOPLIST_FILE = "AnimationAndMotion/AnimationAndMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D254E4D140E2658001A3B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "AnimationAndMotion/AnimationAndMotion-Prefix.pch";
+				INFOPLIST_FILE = "AnimationAndMotion/AnimationAndMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D254E2A140E2657001A3B3C /* Build configuration list for PBXProject "AnimationAndMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D254E49140E2658001A3B3C /* Debug */,
+				0D254E4A140E2658001A3B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D254E4B140E2658001A3B3C /* Build configuration list for PBXNativeTarget "AnimationAndMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D254E4C140E2658001A3B3C /* Debug */,
+				0D254E4D140E2658001A3B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D254E27140E2657001A3B3C /* Project object */;
+}
